@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 public class registerDao {
 	String url = "jdbc:mysql://localhost:3306/prachidb1";
 	String username = "root";
-	String password = "password610@";
+	String password = "1234";
 	String sql = "insert into prachidb1.userdetails values (?,?,?)";
 	public String insertDetails(String email, String pass, String name){
 		String s = "successful";
