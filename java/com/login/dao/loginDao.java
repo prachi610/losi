@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 public class loginDao {
 	String url = "jdbc:mysql://localhost:3306/prachidb1";
 	String username = "root";
-	String password = "password610@";
+	String password = "1234";
 	String sql = "select * from prachidb1.userdetails where email = ? and pass = ?";
 	public boolean checkDetails(String email, String pass){
 		
